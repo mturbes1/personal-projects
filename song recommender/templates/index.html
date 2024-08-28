@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="static/autocomplete.js"></script>
+
+    <title>Song Recommender</title>
+</head>
+<body>
+    <div>
+        <div class="nav-bar">
+            <div class="header">
+                <h1>Song Recommender</h1>
+            </div>
+        </div>
+        <div class="container">
+            <div class="song-input">
+                <form action="/recommend" method="POST">
+                    <input class="input-bar" type="text" name="song_name" id="songSearch" placeholder="enter song" required="required">
+                    <ul class="suggestions-list" id="suggestionsList"></ul>
+                    <button class="submit">Get Recommendations</button>
+                </form>
+            </div>
+            <div class="recommended-songs-con">
+                <h2>Recommended Songs</h2>
+                <div class="songs-list">
+                    {% for item in recommendations %}
+                        <div class="song-item">
+                            <img class="poster" src="{{ item.poster }}" alt="{{ item.song }} album cover">
+                            <p class="song-name">{{ item.song }}</p>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
