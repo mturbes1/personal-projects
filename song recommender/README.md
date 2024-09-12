@@ -25,7 +25,9 @@ The Song Recommender project is a web application that provides music recommenda
 
 1. **Clone the Repository:**
 
+    ```bash
     git clone https://github.com/mturbes1/personal-projects.git
+    ```
 
 2. **Install Dependencies:**
 
