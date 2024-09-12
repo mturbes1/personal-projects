@@ -6,16 +6,16 @@ Visualize sorting algorithms with adjustable array size and sorting speed.
 Select from multiple sorting algorithms.
 Generate a new array and reset the visualization.
 
-# Technologies Used
-HTML: Structure and layout
-CSS: Styling
-JavaScript: Algorithm logic and visualization
+# Languages Used
+HTML: Structure and layout  
+CSS: Styling  
+JavaScript: Algorithm logic and visualization  
 
 # Files
-index.html: The main HTML file.
-styles.css: CSS file for styling the visualizer.
-app.js: JavaScript file containing the main logic and visualization for sorting algorithms.
-sortingAlgs.js: Contains the sorting algorithms implemented in JavaScript.
+index.html: The main HTML file.  
+styles.css: CSS file for styling the visualizer.  
+app.js: JavaScript file containing the main logic and visualization for sorting algorithms.  
+sortingAlgs.js: Contains the sorting algorithms implemented in JavaScript.  
 
 # Setup and Installation
 1. Clone the repository:
