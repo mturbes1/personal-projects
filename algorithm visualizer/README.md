@@ -1,27 +1,29 @@
-Sorting Algorithm Visualizer
+# Sorting Algorithm Visualizer
 This project provides a visual representation of various sorting algorithms. It allows users to see how algorithms like Bubble Sort, Selection Sort, Quick Sort, and Heap Sort sort an array of bars, which visually represents the array elements.
 
-Features
+# Features
 Visualize sorting algorithms with adjustable array size and sorting speed.
 Select from multiple sorting algorithms.
 Generate a new array and reset the visualization.
-Technologies Used
+
+# Technologies Used
 HTML: Structure and layout
 CSS: Styling
 JavaScript: Algorithm logic and visualization
-Files
+
+# Files
 index.html: The main HTML file.
 styles.css: CSS file for styling the visualizer.
 app.js: JavaScript file containing the main logic and visualization for sorting algorithms.
 sortingAlgs.js: Contains the sorting algorithms implemented in JavaScript.
 
-Setup and Installation
+# Setup and Installation
 1. Clone the repository:
 git clone https://github.com/mturbes1/personal-projects.git
 
 2. Open index.html in your browser to start using the visualizer.
 
-Usage
+# Usage
 1. Generate New Array:
 Enter the desired number of bars (1 to 20) in the input box.
 Click the "New" button to generate a new array.
