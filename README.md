@@ -1,6 +1,6 @@
 # Marshall Turbes Personal Projects
 
-Welcome to my personal projects repository! This repository features two key projects:
+Welcome to my personal projects repository! This repository features a few key programming projects I have completed throughout my computer science career.
 
 ## Sorting Algorithm Visualizer
 
