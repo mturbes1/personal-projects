@@ -16,4 +16,13 @@ A web-based song recommender system using Flask and the Spotify API. It allows u
 - **Languages and Technologies**: Python, Flask, JavaScript, HTML, CSS, Spotipy
 - **Features**: Autocomplete song search, song recommendations, album cover display.
 
+## Sales Analysis Dashboard
+
+A comprehensive Power BI dashboard designed to analyze sales data, providing key insights into revenue trends, sales quantity, and customer information. The dashboard allows users to filter data by time period, product category, and region.
+
+- **Tools Used**: Power BI, MySQL
+- **Features**: 
+  - Visualizations for revenue trends, top-selling products, top customers, and regional performance.
+  - Dynamic filtering.
+
 For more details on each project, including setup instructions and usage, check out their respective folders in this repository.

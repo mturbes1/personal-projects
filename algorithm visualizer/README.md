@@ -57,7 +57,3 @@ This project provides a visual representation of various sorting algorithms. It 
 5. **Reset:**
 
     - Click the "Reset" button to clear the array and generate a new one.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
